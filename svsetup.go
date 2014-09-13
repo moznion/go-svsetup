@@ -71,6 +71,8 @@ func main() {
 	}
 	out.WriteString(`#!/bin/sh
 
+# HOME="<your home>"
+
 exec 2>&1
 # TODO write your own processings
 # exec setuidgid ` + user.Username + " <some commands>",
